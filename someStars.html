@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <style type="text/css">
+        .row{
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+        .stars{
+            background-repeat: no-repeat;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 30px;
+            font-weight: bolder;
+            text-decoration: none;
+            padding: 25px;
+            color: #000000a3;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, lightgray, lightgray), linear-gradient(to right, #bababa, #bababa);
+            background-position: 0 0, 0 100%;
+            background-size: 100% 45%, 100% 70%;
+        }
+        a::before{
+            content: '\2605  ';
+            color: gray;
+        }
+        a::after{
+            content: ' \2605 ';
+            color: gray;
+        }
+        * {
+            /*// outline: 1px gray solid;*/
+            max-width: 1257px;
+            margin: auto;
+        }
+        html{
+            height: 100%;
+            box-sizing: border-box;
+        }
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        body {
+            position: relative;
+            margin: 0;
+            padding-bottom: 6rem;
+            min-height: 100%;
+        }
+        #theFooter{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+    <title>TITLE!</title>
+</head>
+<body>
+
+    <header></header>
+    <section class="row" id="container"><a href="#" class="stars">CHECKOUT</a></section>
+    <footer id="theFooter">Some stuff here</footer>
+
+<!-- <script src=""></script> -->
+</body>
+</html>
